@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b{
+            font-family: Verdana;
+            font-size:9pt;
+            font-weight: bold;
+            text-align: center;
+            background-color: #CCCCCC;
+        }
+
+        legend {
+            font: 1rem 'Fira Sans', sans-serif;
+            background-color: #000;
+            color: #fff;
+            padding: 3px 6px;
+            border-radius: 7px;
+        }
+        
+        input[type=button]{
+            border:1px solid royalblue;
+            background-color: royalblue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        input[type=button]:hover {
+            color:royalblue;
+            background-color: rgba(0,0,0,0);
+        }
+
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>select command</legend>
+        <table border="0" cellspacing="0" cellpadding="0" bgcolor=#ffffff><tr><td>
+            <table border=0 cellspacing="1" cellpadding="10">
+            <tr>
+                <td class=b><input type='button' value="Compare DC with DB(Physical)"></td>
+                <td class=b><input type='button' value="Compare DC with DB(Logical)"></td>
+                <td class=b><input type='button' value="Reload from DB to DC"></td>                
+            </tr>
+        </table>
+    </td></tr></table>
+    </fieldset>   
+</body>
+</html>
